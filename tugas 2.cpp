@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int	main (){
-	nilai=nilai+1;
+int main () {
 	int nilai;
-	int 1Nilai;
+	int Nilai = 1;
 	
-	Cout << nilaai;
-	cout << 1Nilai;
-	}
+	cout << "Masukkan nilai = ";
+	cin >> nilai;
+	nilai= nilai + Nilai;
+	
+	cout << nilai;
+}
