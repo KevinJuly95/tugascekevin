@@ -6,4 +6,6 @@ using namespace std;
 	cout<<"luas Rumah		:"<<LR<<"m2"<<endl;
 	double LP=1.87596;
 	cout<<"Luas 1 box Parket	:"<<LP<<"m2"<<endl;
+	double JP=LR/LP;
+	cout<<"Jumlah box Parket	:"<<JP<<endl;
 	}
