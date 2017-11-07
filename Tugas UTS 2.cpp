@@ -18,3 +18,16 @@ int main(){
 		luas=panjang*lebar;
 		cout<<"Hasil			: "<<luas<<endl;
 	}
+	else if(bidang=='S'||bidang=='s'){
+		cout<<"+++++Menghitung Luas Segitiga+++++\n";
+		cout<<"Masukkan Alas	: ";
+		cin>>alas;
+		cout<<"Masukkan Tinggi	: ";
+		cin>>tinggi;
+		luas=0.5*alas*tinggi;
+		cout<<"Hasil		: "<<luas<<endl;
+	}
+	else{
+		cout<<"Harap Pilih Jenis Bidang yang Benar!!!";
+	}
+}
